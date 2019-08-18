@@ -41,6 +41,7 @@ img {
 }
 
 .about-me {
+	max-width: 1000px;
 	font-family: Arial;
 	font-size: 110%;
 	display: inline-block;
