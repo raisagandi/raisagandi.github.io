@@ -1,20 +1,19 @@
 body {
-  background-color: #ff6a80;
-  #background-color: deeppink;
+  #background-color: white;
 }
 
 h1 {
-  font-family: Helvetica Neue;
+  font-family: Arial;
   font-size: 500%;
-  color: white;
+  color: blue;
   text-align: center;
   padding-top: 1px;
 }
 
 h2 {
-  font-family: Helvetica Neue;
+  font-family: Arial;
   font-size: 400%;
-  color: white;
+  color: blue;
   text-align: center;
   margin-top:-50px; margin-bottom: -50px; margin-right:50px; margin-left:50px;
 }
@@ -37,15 +36,15 @@ img {
 
 .left {
     width: 320px;
-    border: 2px solid white;
+    border: 2px blue;
     padding: 5px;
 }
 
 .about-me {
-	font-family: Helvetica Neue;
+	font-family: Arial;
 	font-size: 110%;
 	display: inline-block;
-	color: white;
+	color: black;
 	padding-top: 80px;
 	padding-left: 60px;
 	padding-right: 10px;
@@ -53,9 +52,9 @@ img {
 }
 
 .links {
-	font-family: Helvetica Neue;
+	font-family: Arial;
 	font-size: 120%;
-	color: #89e8f6;
+  color: blue;
 	padding-top: 2px;
 	padding-bottom: 30px;
 	text-align: center;
