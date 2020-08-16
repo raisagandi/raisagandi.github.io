@@ -2,8 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Hi, I'm Raisa! I exist!</title>
+  <title>Hi, I'm Raisa. I exist!</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -20,6 +19,13 @@
     font-size: 25px;
     margin-left: 40px;
     margin-right: 80px;
+    color: black;
+  }
+  ul {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 80px;
+    color: black;
   }
   .margin { 
     color: black;
@@ -36,7 +42,7 @@
     line-height: 1;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 1px;
+    margin-bottom: 10px;
   }
   .bg-3 { 
     background-color: #fff2e6; /* Pink*/
@@ -64,11 +70,11 @@
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 2px;
   }
   .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #black !important;
   }
   </style>
 </head>
@@ -83,15 +89,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Me</a>
+      <a class="navbar-brand">Live to Learn</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Hello</a></li>
-        <li><a href="#">Music</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="./resume/raisa_resume_2020.pdf" target="_blank">Resume</a>/li>
-        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="./resume/raisa_resume_2020.pdf" target="_blank">Resume</a></li>
+        <li><a href="https://www.linkedin.com/in/raisagandiputri/" target="_blank">LinkedIn</a></li>
       </ul>
     </div>
   </div>
@@ -99,33 +105,33 @@
 
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
-  <h1 class="margin">Hi, I'm Raisa! I exist!</h1>
+  <h1 class="margin">Hi, I'm Raisa. I live to learn.</h1>
 </div>
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
   <img src="./pic.jpg" alt="picture of myself" class="img-responsive img-circle margin" style="display:inline"width="350" height="350">
-  <h1> <b>I’m an Indonesian polymath working in the USA.</b> </h1>
+  <h1 id="about"> <b>I’m an Indonesian polymath working in the USA.</b> </h1>
 </div>
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-left">    
     <p>
     I was created and packaged in <a href="https://i1.wp.com/www.director.co.uk/wp-content/uploads/2016/09/Doing-business-in-indonesia.jpg?fit=1000%2C500&ssl=1" 
-    target="_blank" style="color: #00e6b8">Jakarta, Indonesia</a>. </br></br>
+    target="_blank" style="color: #00e6b8">Jakarta, Indonesia</a> for the first 18 years of my life. </br></br>
 
-    Then, I was exported to California and repackaged even further. I majored in Computer Science and minored in 
-    Music at the <a href="https://www.ucdavis.edu" target="_blank" style="color: #00e6b8">University of California, Davis</a>, and completed my education in a little over three years.</br> </br>  
+    Then, I was exported to California and repackaged even further. I exposed myself to a breadth of subjects, ranging from STEM to social sciences and the humanities: I learned programming, economics, anthropology, psychology, music, English composition, and the list goes on. I majored in Computer Science and minored in 
+    Music at the <a href="https://www.ucdavis.edu" target="_blank" style="color: #00e6b8">University of California, Davis</a>, and I completed my college education in a little over three years.</br> </br>  
 
-    Next, I was shipped to Massachusetts, where I worked at Bose's Alexa Voice Cloud Team. There, I stretched my abilities as an engineer, and I was an apprentice to the most amazing and accomplished mentors who have now become my friends. </br></br>
+    Next, I was shipped to <a href="https://i.pinimg.com/originals/ec/72/7d/ec727d757356620b570081d4170a6a60.jpg" target="_blank" style="color: #00e6b8">Massachusetts</a>, where I worked at Bose's Alexa Voice Cloud Team. There, I stretched my abilities as an engineer, and I was an apprentice to the most amazing and accomplished mentors who have now become my friends. </br></br>
 
-    I may be repackaged or shipped to other destinations for the better, but one thing remains certain: I will always remain an apprentice. While I may evolve and move on to other destinations in this world, the relationships that I've built along the way are as permanent as I want them to be. </br><br>
+    I may be repackaged or shipped to other stepping stones in life, but one thing remains certain: I will always remain an apprentice. While I may evolve and move on to other destinations in this world, the relationships that I've built along the way are as permanent as I want them to be. </br><br>
     </p>
 </div>
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
-  <h1> <b>I'm a software engineer by trade, and an artist by heart.</b> </h1>
+  <h1 id="music"> <b>I'm a software engineer by trade, and an artist by heart.</b> </h1>
 </div>
 
 <!-- Third Container (Grid) -->
@@ -133,75 +139,92 @@
     <p>
     I've found my medium of self-expression through music.</br></br>
 
-    I started composing since I was thirteen years old (for funsies: here's the first song I wrote and composed), and I've kept at it ever since.</br></br>
+    I started composing since I was thirteen years old (for funsies: <a href="https://soundcloud.com/raisa-gandi-putri/forget-about-love" target="_blank" style="color: #ff66cc">here</a> is the first song I wrote and composed), and I've kept at it ever since.</br></br>
     
-    My primary instrument for music composition is the piano, and I occasionally sing, play violin, and guitar. I ventured from pop/singer-songwriter style in high school, to contemporary piano instrumentals in college, and finally I broke my artistic barriers while studying Electronic Music in my senior year of college where I composed avant-garde pieces like this. </br><br>
+    My primary instrument for music composition is the piano, and I occasionally write songs, sing, play violin, and guitar. Listen to how I evolved as a musician, starting with these compositions:
+    </br>
+    
+    <ul>
+        <li> Here's how I describe my life as a <a href="http://raisagp.blogspot.com/2017/09/the-lifeguard.html " target="_blank" style="color:#ff66cc">painting on a canvas</a> </li>
+
+        <li> Imagine a <a href="https://soundcloud.com/raisa-gandi-putri/serenade-of-the-stars" target="_blank" style="color:#ff66cc">serenade of stars</a> under the Northern Lights </li>
+
+        <li> Missing <a href="https://soundcloud.com/raisa-gandi-putri/rindu-original" target="_blank" style="color:#ff66cc">Indonesia</a> </li>
+
+        <li> My <a href="https://soundcloud.com/raisa-gandi-putri/the-fight-for-freedom-original" target="_blank" style="color:#ff66cc">interpretation of the civil rights movement</a> in America </li>
+
+        <li> Living and thriving with a <a href="https://soundcloud.com/raisa-gandi-putri/a-tune-of-hope-original" target="_blank" style="color:#ff66cc">mental health</a> condition </li>
+
+        <li> An <a href="https://soundcloud.com/raisa-gandi-putri/i-am-leaving-home-original-courtney-and-raisa" target="_blank" style="color:#ff66cc">answer song</a> to The Beatles' "She Is Leaving Home" </li>
+
+        <li> What it means to be a <a href="https://soundcloud.com/raisa-gandi-putri/journey-to-victory-original" target="_blank" style="color:#ff66cc">champion</a> </li>
+
+        <li> What <a href="https://soundcloud.com/raisa-gandi-putri/music-original" target="_blank" style="color:#ff66cc">music</a> means to me </li>
+
+        <li> <a href="https://soundcloud.com/raisa-gandi-putri/gemerincing-original" target="_blank" style="color:#ff66cc">Noodles</a> (yum) </li>
+
+        <li> A piece where I finally broke my artistic barriers and portrayed a <a href="https://soundcloud.com/raisa-gandi-putri/the-voyager-original" target="_blank" style="color:#ff66cc">voyager</a> on a grand adventure. </li>
+    </ul>
+    </p>
+    </br></br>
+
+    <p>
+    Here are some covers I've made: </br>
+
+    <ul>
+        <li> <a href="https://soundcloud.com/raisa-gandi-putri/the-rolling-stones-piano-medley" target="_blank" style="color:#ff66cc">Rolling Stones piano medley!</a> </li>
+
+        <li> <a href="https://soundcloud.com/raisa-gandi-putri/help-the-beatles-cover" target="_blank" style="color:#ff66cc">"Help!"</a> - The Beatles cover (vocals and piano) </li>
+    </ul>
+    </p>
+
+    <p>
+    </br></br>
+    Still can’t get enough? Listen to all of my original compositions and covers on my <a href="https://soundcloud.com/raisa-gandi-putri" target="_blank" style="color:#ff66cc">SoundCloud</a>. 
     </p>
 </div>
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
-  <h1> <b>I also express myself through writing and public speaking.</b> </h1>
+  <h1 id="writing"> <b>I also express myself through writing and public speaking.</b> </h1>
 </div>
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-5 text-left">    
     <p>
-    Get to know me better by reading my short stories:</br></br>
-    
+    Get to know me better by reading my pieces:</br>
+
+    <ul>
+        <li>Believe it or not, I struggled in CS as a college freshman. Here's an in-depth journey on <a href="http://raisagp.blogspot.com/2017/09/the-lifeguard.html " target="_blank" style="color:#ff66cc">how I found the strength to continue programming</a>. </li>
+
+        <li>Here's <a href="http://raisagp.blogspot.com/2017/08/why-im-glad-i-didnt-go-home-this-summer.html" target="_blank" style="color:#ff66cc">how I started asking for help in college</a>. </li>
+
+        <li>I compiled some compelling evidence and convinced myself and other women to stay in tech through <a href="http://raisagp.blogspot.com/2017/09/ending-exodus-why-women-should-stay-in.html" target="_blank" style="color:#ff66cc">this research paper</a>.</li>
+    </ul>
+    </br>
     </p>
+
+    <p>
+    I was also a motivational speaker in college, and I spoke in four introductory CS classes!</br>
+
+    <ul>
+        <li>Here's a <a href="http://raisagp.blogspot.com/2020/06/what-is-computer-science-really.html " target="_blank" style="color:#ff66cc">speech transcript</a> on how I discovered what CS is all about. </li>
+    </ul>
+    </br></br>
+    </p>
+
+    <p>
+    Still can’t get enough? View all of my writings on my <a href="http://raisagp.blogspot.com" target="_blank" style="color:#ff66cc">personal blog</a>.
+    </p>
+</div>
+
+<div class="container-fluid bg-2 text-center">
+  <h1> <b>Lastly, I live to learn. My quest for knowledge continues.</b> </h1>
 </div>
 
 <!-- Footer -->
 <footer class="container-fluid bg-2 text-center">
+   <p style=text-center;> © Raisa Gandi Putri 2020</p>
 </footer>
-    <p> hi there </p>
 </body>
 </html>
-
-
-<!---
-
-<!DOCTYPE html>
-<html>
-<head>
-  <link href="style.css" type="text/css" rel="stylesheet">
-  <title>Raisa Gandi Putri</title>
-</head>
-
-<body>
-  <h1>Hello!</h1>
-  
-  <h2>I am Raisa Gandi Putri.</h2>
-  
-  <p>
-    
-    <div class="about-me">
-    <img src="./pic.jpg" alt="picture of myself" align="left" hspace="30" class="left">
-    
-    I was created and packaged in <a href="https://i1.wp.com/www.director.co.uk/wp-content/uploads/2016/09/Doing-business-in-indonesia.jpg?fit=1000%2C500&ssl=1" 
-    target="_blank" style="color: #00e6b8">Jakarta, Indonesia</a>. Then, I was exported to California and re-packaged even further. I majored in Computer Science and minored in 
-    Music at the <a href="https://www.ucdavis.edu" target="_blank" style="color: #00e6b8">University of California, Davis</a>, and completed my education in a little over three years.</br> </br>  
-
-    I was then shipped to Massachusetts, where I worked at Bose's Alexa Voice Cloud Team. There, I stretched my abilities as an engineer, and I was an apprentice to the most amazing and accomplished mentors who have now become my friends. I may be re-packaged or shipped to other destinations for the better, but one thing remains certain: I will always remain an apprentice. While I may evolve and move on to other destinations in this world, the relationships that I've built along the way are as permanent as I want them to be. </br><br>
-
-    Along the journey in my quest for knowledge, I've left breadcrumbs through music. I started composing since I was thirteen years old - here's the first song I wrote and composed! I've been composing throughout high school and college as well. My primary instrument for music composition is the piano, but I occasionally sing, play violin, and guitar. I ventured from pop/singer-songwriter style in high school, to contemporary piano instrumentals in college, and finally I broke my artistic barriers while studying Electronic Music in my senior year of college where I composed avant-garde pieces like this. </br><br>
-
-    Please check out my originals and covers on my <a href="https://soundcloud.com/raisa-gandi-putri"
-    target="_blank" style="color: #00e6b8">SoundCloud</a>!</br></br>
-     
-    </div>
-    
-    <div class="links">
-    <a href="./resume/raisa_resume_2020.pdf" target="_blank">Resume</a> &nbsp &nbsp  
-    <a href="https://www.linkedin.com/in/raisagandiputri/" target="_blank">LinkedIn</a>&nbsp &nbsp 
-    <a href="https://raisagp.blogspot.com" target="_blank">Blog</a> &nbsp &nbsp 
-    <a href="https://github.com/raisagandi" target="_blank">Projects</a> &nbsp &nbsp 
-    </div>
-  </p>
-  
-</body> 
-
-</html> 
-
---->
