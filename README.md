@@ -1,3 +1,2 @@
-# Welcome!
-Personal website
+# Personal Wobsite!
 Visit me at https://raisagandi.github.io
